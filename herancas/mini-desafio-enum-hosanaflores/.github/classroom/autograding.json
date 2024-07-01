@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "Exercício 1 - Testes",
+      "setup": "",
+      "run": "mvn test -DargLine=\"-Dfile.encoding=UTF-8\" -Dtest=\\MainTests",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 1
+    }
+  ]
+}
