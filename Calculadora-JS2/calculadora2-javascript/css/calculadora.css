@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.fundo{
+    background-image: linear-gradient(45deg, rgb(0, 0, 0), rgb(105, 192, 246)); /*45 graus, indo do violeta pro pink*/
+    height: 100vh; 
+    text-align: center;
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.calculadora{
+    position: absolute; /*ela vai ocupar o espaço apenas dela mesma*/
+    background-color: rgba(0, 0, 0, 0.8);
+    top: 50%; /*desceu 50% do topo*/
+    left: 50%; /*foi pra direita*/
+    transform: translate(-50%, -50%); /*Para a div ficar centralizada... eixo x e y*/
+    border-radius: 15px; /*Arredondamento das bordas*/
+    padding: 15px; /*Distância entre os elementos e a borda*/
+}
+
+.botao{
+    width: 50px; /*Largura*/
+    height: 50px; /*Altura*/
+    font-size: 25px; /*Tamaho da fonte*/
+    cursor: pointer;
+    background-color: rgb(31, 31, 31);
+    border: none;
+    color: #fff; /*Cor da fonte*/
+    margin: 3px; /*Espaço entre os botões*/
+}
+
+.igual{ /*Botão de = */
+    width: 50px; /*Largura*/
+    height: 106px; /*Altura*/
+    font-size: 25px; /*Tamaho da fonte*/
+    cursor: pointer;
+    background-color: rgb(31, 31, 31);
+    border: none;
+    color: #fff; /*Cor da fonte*/
+    margin: 3px;
+}
+
+.zero{ /*Botão de 0*/
+    width: 106px; /*Largura*/
+    height: 50px; /*Altura*/
+    font-size: 25px; /*Tamaho da fonte*/
+    cursor: pointer;
+    background-color: rgb(31, 31, 31);
+    border: none;
+    color: #fff; /*Cor da fonte*/
+    margin: 3px;
+}
+
+.botao:hover{
+    background-color: #000;
+}
+
+#resultado{ /*Campo para ver resultado*/
+    width: 212px;
+    height: 30px;
+    margin: 5px;
+    background-color: #fff;
+    font-size: 25px;
+    color: #000;
+    text-align: right;
+    padding: 5px;
+}
+
+
+
+

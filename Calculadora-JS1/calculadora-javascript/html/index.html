@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--MEU JS-->
+    <script src="../js/calculadora.js"></script>
+
+    <!--MEU CSS-->
+    <link rel="stylesheet" href="../css/form-calculadora.css">
+
+    <!--Título-->
+    <title>Calculadora</title>
+</head>
+
+<body>
+
+<h1>Calculadora - Hosana Silvino</h1>
+
+<div class="contorno">
+    
+            <form method="post">
+                <label for="valor1" class="valor1">Valor 1:</label><br>
+                <input type="text" id="valor1" name="valor1" class="input"><br>
+                <label for="valor2" class="valor1">Valor 2:</label><br>
+                <input type="text" id="valor2" name="valor2" class="input"><br><br>
+                <input type="submit" name="soma" value="Somar" class="botao" id="soma" onclick="calcular('soma')">
+                <input type="submit" name="subtracao" value="Subtrair" class="botao" id="subtrair" onclick="calcular('subtrair')">
+                <input type="submit" name="multiplicacao" value="Multiplicar" class="botao" id="multiplicacao" onclick="calcular('multiplicacao')">
+                <input type="submit" name="divisao" value="Dividir" class="botao" id="divisao" onclick="calcular('divisao')">
+            </form> 
+            <div class="resultado"></div>
+            <div class="insira"></div>    
+</div>
+
+</body>
+</html>
+
+

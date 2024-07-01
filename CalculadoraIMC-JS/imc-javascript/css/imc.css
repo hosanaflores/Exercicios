@@ -1,0 +1,49 @@
+body{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, rgb(29,136,207), rgb(110,25,143));
+    color: #fff;
+    text-align: center;
+}
+
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60%;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 1em;
+    border-radius: 15px;
+}
+
+button{
+    background-color: slateblue;
+    color: #fff;
+    border: none;
+    padding: 1em; /*Espaço entre o elemento e as bordas*/
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px black;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(29,136,207);
+}
+
+.final-step,
+.second-step{
+    display: none;
+}
+
+input{
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    outline: none; /*para retirar aquela borda interna preta de dentro do input*/
+   
+}
+
+#resultado{
+    font-size: 25px;
+}
+

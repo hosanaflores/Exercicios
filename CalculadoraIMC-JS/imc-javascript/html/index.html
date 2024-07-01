@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="../css/imc.css" media="screen" />
+
+    <script src="../javascript/imc.js" async></script> 
+
+    <title>Calcule seu IMC</title>
+</head>
+<body>
+    
+    <h1>Hosana Silvino</h1>
+
+    <div class="container">
+        <div class="first-step">
+            <p>Clique no botão para calcular o seu IMC</p>
+            <button onclick="go(1,2)">Iniciar</button>
+        </div>
+
+        <div class="second-step">
+            <h3>Calculadora de IMC</h3>
+            <hr>
+            <label for="peso">Digite seu peso:</label>
+            <input type="number" placeholder="Seu peso" id="peso">
+            <br><br>
+            <label for="altura">Digite sua altura:</label>
+            <input type="number" placeholder="Sua altura" id="altura">
+            <br><br>
+            <button onclick="validar()">Calcular</button>
+        </div>
+
+        <div class="final-step">
+            <h3>Resultado!</h3>
+            <p id="resultado"></p>
+            <button onclick="go(3,2)">Calcular Novamente</button> <!--Estou no 3 quero ir para o 2-->
+            <button onclick="go(3,1)">Finalizar</button>   <!--Estou no 3 quero ir para o 1-->         
+        </div>
+    </div>
+
+
+</body>
+</html>
